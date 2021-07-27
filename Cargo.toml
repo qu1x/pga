@@ -1,0 +1,34 @@
+[package]
+name = "pga"
+version = "0.0.0"
+authors = ["Rouven Spreckels <rs@qu1x.dev>"]
+edition = "2018"
+description = """
+Easy-to-use and portably SIMD-optimized implementation of projective geometric algebra (PGA).
+Applicable for real-time animations, computational geometry, rigid body dynamics, games, etc.
+"""
+documentation = "https://docs.rs/pga"
+repository = "https://github.com/qu1x/pga"
+readme = "README.md"
+license = "MIT"
+keywords = [
+	"dual-quaternion",
+	"projective-space",
+	"geometric-algebra",
+	"computer-graphics",
+	"rigid-body-dynamics",
+]
+categories = [
+	"no-std",
+	"science",
+	"graphics",
+	"mathematics",
+	"game-development",
+]
+include = [
+	"src/**/*.rs",
+	"Cargo.toml",
+	"README.md",
+	"RELEASES.md",
+	"LICENSE.md",
+]
